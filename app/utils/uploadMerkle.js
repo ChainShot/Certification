@@ -1,5 +1,5 @@
 const ipfsApi = require("ipfs-http-client");
-const ipfs = ipfsApi("http://127.0.0.1:5001");
+const ipfs = ipfsApi("https://ipfs.infura.io:5001");
 
 async function run(merkleTree) {
   const files = [{

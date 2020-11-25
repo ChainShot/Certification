@@ -6,6 +6,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "browserslist": [
+    "> 5%"
+  ],
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
     "@nomiclabs/hardhat-etherscan": "^2.0.1",
@@ -15,9 +18,11 @@
     "dotenv": "^8.2.0",
     "ethereum-waffle": "^3.2.0",
     "ethereumjs-util": "^7.0.7",
-    "ethers": "^5.0.21",
     "hardhat": "^2.0.3",
-    "ipfs-http-client": "^48.1.1"
+    "ipfs-http-client": "^48.1.1",
+    "sass": "^1.29.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "ethers": "^5.0.21"
+  }
 }

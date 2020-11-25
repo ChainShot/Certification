@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title> Certification </title>
+  </head>
+
+  <body>
+    <div class="mint-nft">
+      <h1> Mint your NFT </h1>
+      <p>
+        If you are part of a graduating cohort and you have not minted an
+        NFT already, you can do so by finding your graduation merkle root
+        and connecting ethereum account that you graduated with!
+      </p>
+      
+      <label>
+        Merkle Root
+        <input type="text" id="merkle-root-1" />
+      </label>
+
+      <div class="button" id="mint">
+        Mint NFT
+      </div>
+    </div>
+
+    <div class="register-ens">
+      <h1> Register your ENS name </h1>
+      <p>
+        At any time you can register an ENS name or change it. This ENS name
+        will be a subdomain of .chainshot.eth
+      </p>
+
+      <label>
+        Merkle Root
+        <input type="text" id="merkle-root-2" />
+      </label>
+
+      <label>
+        ENS Name
+        <input type="text" id="ens-name" />
+      </label>
+
+      <div class="button" id="register">
+        Register ENS Name
+      </div>
+
+      <p>
+        <strong> Note: </strong>
+        This ENS name will be normalized and there are specific rules that apply to
+        valid names. You can see these rules here: <a href="https://eips.ethereum.org/EIPS/eip-137#name-syntax">EIP 137</a>
+      </p>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

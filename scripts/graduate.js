@@ -1,6 +1,6 @@
-const MerkleTree = require('../utils/MerkleTree');
-const uploadMerkle = require('../utils/uploadMerkle');
-const { certificationAddress } = require('./common/config');
+const MerkleTree = require('../app/utils/MerkleTree');
+const uploadMerkle = require('../app/utils/uploadMerkle');
+const { certificationAddress } = require('./__config');
 
 const members = [
   // add all graduating addresses here...
