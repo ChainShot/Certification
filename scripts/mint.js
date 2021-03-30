@@ -1,8 +1,8 @@
 const MerkleTree = require('../app/utils/MerkleTree');
 const getProof = require('../app/utils/getProof');
-const { certificationAddress } = require('./__config');
+const { certificationAddress, graduations } = require('./__config');
 
-const root = "0x92cfd9bc10ad445dbf0bc661f8ffe10d84c97ad1a6fe2ccaeca612fba5600401";
+const root = graduations[1].root;
 
 async function main() {
   const Certification = await ethers.getContractFactory("Certification");

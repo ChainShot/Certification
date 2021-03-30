@@ -1,10 +1,8 @@
 const MerkleTree = require('../app/utils/MerkleTree');
 const uploadMerkle = require('../app/utils/uploadMerkle');
-const { certificationAddress } = require('./__config');
+const { certificationAddress, graduations } = require('./__config');
 
-const members = [
-  // add all graduating addresses here...
-];
+const members = graduations[1].graduates;
 
 async function main() {
   const merkleTree = new MerkleTree(members);

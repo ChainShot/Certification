@@ -1,3 +1,38 @@
 {
-  "certificationAddress": "0xe3FdCB10551E896766853DbE980117183a2eC444"
+  "certificationAddress": "0xe3FdCB10551E896766853DbE980117183a2eC444",
+  "graduations": [{
+      "date": "November 19th, 2020",
+      "graduates": [
+        "0x0E11A192d574b342C51be9e306694C41547185DD",
+        "0xC99DF6B7A5130Dce61bA98614A2457DAA8d92d1c",
+        "0x77893f21ac4F054A51922fCECf6397B89Efe9E61",
+        "0x8a83716acd66D9e1fb18c9b79540B72E04f80aC0",
+        "0x8443379cBaF7A68B2Cc1626Df9e4Cb47d525A0e4",
+        "0xe1e6fb5a979638fa5f0a3426EE982b6559b69406",
+        "0xa53a6fe2d8ad977ad926c485343ba39f32d3a3f6",
+        "0x95224178293c24219c287d7bfc6ad148c99dcFdE"
+      ],
+      "root": "0x92cfd9bc10ad445dbf0bc661f8ffe10d84c97ad1a6fe2ccaeca612fba5600401",
+      "cid": "QmTduFk5AxaPu9mncP6xjrHdbX6sXsi9erre4fLtJ2GaiC"
+  }, {
+      "date": "March 25th, 2021",
+      "graduates": [
+        "0xAbb9aC1F97FB9b40a538B41f7F5e3681d4495bE5",
+        "0x065cbe0bedd9186fc8d4f01cde966a7198ae674d",
+        "0x3EdAf3606ce55d1DDB294a412cFF5fDdA49EB1ed",
+        "0x2be7ae678e614a79767b63a6416459ff47ee1028",
+        "0x0ff7bA0BF2ac1249E477e5dF8BEcEd02934af2f6",
+        "0x1fc7D7D865AF3C28070126141F9a586d528D3460",
+        "0x5cb559426C904e6b4d4ec4908C5c12217Fc6Fe8E",
+        "0x58E603d9824976F7a3940C6B408F0Ffa523a216C",
+        "0x5f4c6754237F7aC9477331d031102bB79B315286",
+        "0xea9f21Fdf1A074bC108D446E376037389E0A133C",
+        "0x7AB673FA10a9B46ed7fd6d1cdfD148eDA5A56AD5",
+        "0x81AF761CAAC747f0c987D35e29A1878a9D372dFb",
+        "0x73Aff361456861d96A4B9025BaEE7cEa6e066f1b",
+        "0x1c8fe2ef3f3aa3448db5367d6bf4f1e0fcd36ae5"
+      ],
+      "root": "0xced2ff27cbc971bf91a043e880e4587243b4fd3d2dd80fe8dc39b7d1ac105574",
+      "cid": "Qmf5gfDGTgX5stcQ5R1UNH4YYNdyXtAcN2CKTuD8HmEcmG"
+  }]
 }
