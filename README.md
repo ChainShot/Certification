@@ -28,9 +28,11 @@ To work with the scripts you'll need to first create a `.env` file that will pro
 In the scripts folder, you'll find two **Alumni Scripts** which can be used to mint and register:
 
 **Mint** - This script can be called to mint a ChainShot Bootcamp NFT. In order to use it, you will need to ensure that the `root` variable is your graduation Merkle Root. Then you can run `npx hardhat run scripts/mint.js --network mainnet`
+
 **Register** - This script can be called to register .chainshot.eth ENS subdomain. Ensure that the `root` variable is the correct merkle root and the `name` variable is the ENS subdomain that you desire. You can run this with `hardhat run scripts/register.js --network mainnet`
 
 You'll also find two **Admin Scripts** which can be used to deploy a contract and graduate a class. These scripts are not needed unless you'd like to deploy your own version of a certification:
 
 **Deploy** - This script is for deployment of the contract and IPFS NFT information.
+
 **Graduate** - This script will graduate a class, add the leaves to IPFS and commit the root to the certification contract.
