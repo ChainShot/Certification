@@ -2,7 +2,7 @@ const MerkleTree = require('../app/utils/MerkleTree');
 const getProof = require('../app/utils/getProof');
 const { certificationAddress, graduations } = require('./__config');
 
-const root = graduations[1].root;
+const root = graduations[2].root;
 const name = "yay"; // TODO: choose your ENS name!
 
 async function main() {

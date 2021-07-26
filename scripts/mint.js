@@ -2,7 +2,7 @@ const MerkleTree = require('../app/utils/MerkleTree');
 const getProof = require('../app/utils/getProof');
 const { certificationAddress, graduations } = require('./__config');
 
-const root = graduations[1].root;
+const root = graduations[2].root;
 
 async function main() {
   const Certification = await ethers.getContractFactory("Certification");
